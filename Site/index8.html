@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Element with Class Selector</title>
+    <style>
+        .highlight {
+            background-color: green;
+        }
+
+        p.highlight {
+            font-style: italic;
+        }
+
+        .highlight.mainpoint {
+            color: red;
+            background-color: black;
+        }
+
+        section > article {
+            color: green;
+            font-size: 24px;
+        }
+
+        section > h2 {
+            color: green;
+        }
+
+        section li {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <section>
+    <h1 class="highlight">Element with Class Selector</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing 
+        elit. Alias sapiente suscipit consectetur atque
+         blanditiis earum ut nulla eius excepturi officiis
+          quae, ullam tenetur minima consequuntur explicabo 
+          laboriosam corrupti, dolore ratione!</p>
+    <p class="highlight">This is P with CLASS="highlight"</p>
+    <div class="mainpoint highlight">This is the main point of
+        the entire article.
+    </div>
+    </section>
+
+    <section>
+        <h1>Child Selector</h1>
+        <section>
+            <h2>Subheading 1</h2>
+            <div>
+                <article>ARTICLE which is inside DIV, which
+                    is inside SECION
+                </article>
+            </div>
+        </section>
+        <section>
+            <article>
+                ARTICLE as a direct shilc of the SECTION element.
+            </article>
+        </section>
+        <h2>Subheading 2</h2>
+    </section>
+
+    <section>
+        <h1>Decendant Selector</h1>
+        <section>
+            Table of contents:
+            <ul>
+                <li>Article 1</li>
+                <li>Article 2</li>
+                <li>Article 3</li>
+            </ul>
+        </section>
+        <article>
+            Shopping List:
+            <ul>
+                <li>Milk</li>
+                <li>Snacks</li>
+                <li>Seasonings</li>
+            </ul>
+        </article>
+    </section>
+</body>
+</html>
