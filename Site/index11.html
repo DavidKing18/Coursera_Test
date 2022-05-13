@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cascade of CSS</title>
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        section#one p {
+            color: maroon;
+        }
+
+        section#two P {
+            color: blue;
+        }
+
+        body section#two {
+            color: red;
+            text-align: center;
+            font-family: Helvetica;
+        }
+
+        #three header.navigation p {
+            color: blue;
+        }
+
+        #two p.blurb {
+            color:red;
+        }
+
+        #three p {
+            color: green !important;
+        }
+
+    </style>
+</head>
+
+<body>
+    <section id="one">
+        <h1>Origin Example</h1>
+        <p>THe rule is simpple: last declarartion wins.</p>
+        <p style="color: black;">If there is no conflic, declarations merfe into one rule.</p>
+    </section>
+        <hr>
+    <section id="two">
+        <h1>Inheritance in CSS</h1>
+        <h2>Subheading 1</h2>
+        <p>Inheritance allows us to write more global styles on parent
+            elements and then 'fine-tune' the styles for more of the 
+            child elements as needed. Such approach makes writing CSS
+            very efficient. 
+        </p>
+        <h2 style="color: green;">Subheading 2</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing
+             elit. Voluptatem possimus quaerat, dolore totam 
+             eos amet ea necessitatibus harum, ad, ratione 
+             voluptas tempore! Perferendis laudantium officiis
+              corrupti unde, rem doloribus velit?</p>
+    </section>
+        <hr>
+    <section id="three">
+        <header class="navigation">
+            <h1>Specitifity</h1>
+            <p class="blurb">Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Tempore, tenetur doloribus.
+                 Placeat, doloremque. Eveniet in atque 
+                 consequuntur non nemo obcaecati provident 
+                 nesciunt aspernatur voluptas ut iure soluta,
+                  iusto excepturi veniam.</p>
+        </header>
+    </section>
+</body>
+</html>
