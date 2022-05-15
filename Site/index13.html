@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Box Model</title>
+    <style>
+    /*To reset the CSS browser defaults.*/
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: gray;
+            margin: 0;
+            padding: 0;
+        }
+
+        #box {
+            background-color: blue;
+            padding: 10px 10px 10px 10px;
+            border: 5px solid black;
+            width: 300px;
+            height: 500px;
+            margin-top: 30px;
+            overflow: auto;
+        }
+
+        #content {
+            background-color: #90ee90; //green
+        }
+
+        h1 {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BOX MODEL</h1>
+    <div id="box">
+        <div id="content">Lorem ipsum dolor, sit amet 
+            consectetur adipisicing elit. Ab quibusdam,
+             inventore officiis doloribus voluptates, 
+             quos assumenda et libero quas veritatis 
+             voluptas aliquam impedit repudiandae id 
+             corrupti. Aliquid vero tempore corporis!
+        </div>
+    </div>
+</body>
+</html>
+
+<!--SUUMMARY-->
+
+<!--Box model - essential to understand
+    - Prefer 'box-sizing: border-box'-->
+<!--The * (Universal) selector-->
+<!--Cummulative and collapsing margins-->
+<!--Content overflow-->
