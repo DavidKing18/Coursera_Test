@@ -40,14 +40,14 @@
 
                 <div id="collapsable-nav" class="collapse navbar-collapse">
                     <ul id="nav-list" class="nav navbar-nav navbar-right">
-                        <li class="visible-xs active">
+                        <li class="visible-xs">
                             <a href="index.html">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
                                     <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"/>
                                   </svg>Home
                             </a>
                         </li>
-                        <li><a href="menu-categories.html">
+                        <li class="active"><a href="menu-categories.html">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clipboard2" viewBox="0 0 16 16">
                                 <path d="M3.5 2a.5.5 0 0 0-.5.5v12a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-12a.5.5 0 0 0-.5-.5H12a.5.5 0 0 1 0-1h.5A1.5 1.5 0 0 1 14 2.5v12a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-12A1.5 1.5 0 0 1 3.5 1H4a.5.5 0 0 1 0 1h-.5Z"/>
                                 <path d="M10 .5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5.5.5 0 0 1-.5.5.5.5 0 0 0-.5.5V2a.5.5 0 0 0 .5.5h5A.5.5 0 0 0 11 2v-.5a.5.5 0 0 0-.5-.5.5.5 0 0 1-.5-.5Z"/>
@@ -90,32 +90,137 @@
     <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
 
     <div id="main-content" class="container">
-        <div class="jumbotron">
-            <img src="images/jumbotron_768.jpg" alt="Picture of restaurant"
-            class="img-responsive visible-xs">
-        </div>
+        <h2 id="menu-categories-title" class="text-center">Lunch Menu</h2>
+        <div class="text-center">Lunch is not served until after 1pm.</div>
 
-        <div id="home-tiles" class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="menu-categories.html">
-                    <div id="menu-tile"><span>menu</span></div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <a href="single-category.html">
-                    <div id="specials-tile"><span>specials</span></div>
-                </a>
-            </div>
-            <div class="col-md-4 col-sm-12 col-xs-12">
-                <a href="https://goo.gl/maps/eRuPqz4X3RK5r37M9" target="_blank">
-                    <div id="map-tile">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.9220780890187!2d3.2788228999999998!3d6.5315255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8fa20dd97fb7%3A0x6e61e59352ade04e!2s4%20Oremeji%20St%2C%20Egbe%20102213%2C%20Lagos!5e0!3m2!1sen!2sng!4v1653658675389!5m2!1sen!2sng" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        <span>map</span>
+
+        <section class="row">
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D01</div>
+                            <img src="images/menu/B/B-1.jpg" alt="Item" width="250" height="150" class="img-responsive">
+                        </div>
+                        <div class="menu-item-price">$10.95<span> (print)</span>$14.95 <span>(quart)</span></div>
                     </div>
-                </a>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+                        <p class="menu-item-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente 
+                            cupiditate sit voluptatem dolorem non adipisci repellendus, animi facilis dignissimos, eaque 
+                            accusamus praesentium hic nobis at tempore recusandae cumque quia tempora!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consequatur totam fugit obcaecati 
+                            soluta delectus eaque laudantium ducimus dolores suscipit. Repudiandae corporis temporibus id
+                             blanditiis dolorum labore maiores reiciendis deleniti.</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
             </div>
-        </div><!-- End of #home tiles-->
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D02</div>
+                            <img src="images/menu/B/B-1.jpg" alt="Item" width="250" height="150" class="img-responsive">
+                        </div>
+                        <div class="menu-item-price">$10.95<span> (print)</span>$14.95 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+                        <p class="menu-item-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente 
+                            cupiditate sit voluptatem dolorem non adipisci repellendus, animi facilis dignissimos, eaque 
+                            accusamus praesentium hic nobis at tempore recusandae cumque quia tempora!</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D03</div>
+                            <img src="images/menu/B/B-1.jpg" alt="Item" width="250" height="150" class="img-responsive">
+                        </div>
+                        <div class="menu-item-price">$10.95<span> (print)</span>$14.95 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+                        <p class="menu-item-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente 
+                            cupiditate sit voluptatem dolorem non adipisci repellendus, animi facilis dignissimos, eaque 
+                            accusamus praesentium hic nobis at tempore recusandae cumque quia tempora!</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D04</div>
+                            <img src="images/menu/B/B-1.jpg" alt="Item" width="250" height="150" class="img-responsive">
+                        </div>
+                        <div class="menu-item-price">$10.95<span> (print)</span>$14.95 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+                        <p class="menu-item-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente 
+                            cupiditate sit voluptatem dolorem non adipisci repellendus, animi facilis dignissimos, eaque 
+                            accusamus praesentium hic nobis at tempore recusandae cumque quia tempora!</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D05</div>
+                            <img src="images/menu/B/B-1.jpg" alt="Item" width="250" height="150" class="img-responsive">
+                        </div>
+                        <div class="menu-item-price">$10.95<span> (print)</span>$14.95 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+                        <p class="menu-item-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente 
+                            cupiditate sit voluptatem dolorem non adipisci repellendus, animi facilis dignissimos, eaque 
+                            accusamus praesentium hic nobis at tempore recusandae cumque quia tempora!</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="menu-item-tile col-md-6">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <div class="menu-item-photo">
+                            <div>D06</div>
+                            <img src="images/menu/B/B-1.jpg" alt="Item" width="250" height="150" class="img-responsive">
+                        </div>
+                        <div class="menu-item-price">$10.95<span> (print)</span>$14.95 <span>(quart)</span></div>
+                    </div>
+                    <div class="menu-item-description col-sm-7">
+                        <h3 class="menu-item-title">Veal with Mixed Vegetables</h3>
+                        <p class="menu-item-details">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente 
+                            cupiditate sit voluptatem dolorem non adipisci repellendus, animi facilis dignissimos, eaque 
+                            accusamus praesentium hic nobis at tempore recusandae cumque quia tempora!</p>
+                    </div>
+                </div>
+                <hr class="visible-xs">
+            </div>
+
+            <div class="clearfix visible-md-block visible-lg-block"></div>
+
+        </section>
     </div><!-- End of #main-content -->
+
 
     <footer class="panel-footer">
         <div class="container">
