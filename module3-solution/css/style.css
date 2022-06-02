@@ -1,0 +1,30 @@
+.navbar-brand {
+    height: 90px;
+    margin-left: 10px;
+}
+
+nav > div.container {
+    background-color: #643E46FF;
+    width: 100%;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -55px;
+}
+
+div > div.subHeader {
+    margin-bottom: 20px;
+}
+
+ul#nav-list {
+    background-color: #BA0020FF; 
+    text-align: center;
+    font-size: 1.5em;
+}
+
+div.mainPage {
+    background-color: #EE2737FF;
+    height: 1000px;
+}
+
