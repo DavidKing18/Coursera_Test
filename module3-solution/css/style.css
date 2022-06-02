@@ -17,6 +17,10 @@ div > div.subHeader {
     margin-bottom: 20px;
 }
 
+div.text-center {
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
 ul#nav-list {
     background-color: #BA0020FF; 
     text-align: center;
